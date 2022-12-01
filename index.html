@@ -12,7 +12,9 @@
       <title>Premier League Data Visualization
       </title>
     </head>
-    <body>
+    <body>          
+            
+
         <section id ="Intro">
             <h1 style="text-align: center;">CS 424 Data Visualization Project</h1>
             <h3 style="text-align: center;">Presented by Mohammed Tanveer</h3>
@@ -26,6 +28,20 @@
         </section>
         <br>
         <br>
+        <section id ="Visualization_2">
+            <div class = "scatp">
+                <h3>Interactive ScatterPlot</h3>
+                <p>One of the domain questions were based on the players contributions to the team. This is a scatter chart for top 20 players with respect to the the following 3 attributes of goals scored, assists, and penalty kicks.
+                    <br>
+                    This can give us a quick way of seeing the distribution of players in the goal contributions, and we can also make out how many players are in the top 20 penalty kick takers that are already there in top goal scorers and assisters.
+                </p>
+                <button value="goals" onclick='changes(this.value)'>Goals</button>
+                <button value="assists" onclick='changes(this.value)'>Assists</button>
+                <button value="pk" onclick='changes(this.value)'>Penalty Goals</button>
+                <a href="index.html"><button value="RESET" >RESET</button></a>
+              </div>
+              <svg class ="svg1"></svg>
+              </section>
         <section id ="Visualization_1">
             <div class = "barch">
               <h3 style="text-align: center;">Interactive Bar Chart</h3>
@@ -55,22 +71,7 @@
           </div>
         </section>
   <br><br>
-      <section id ="Visualization_2">
-          <div class = "scatp">
-              <h3>Interactive ScatterPlot</h3>
-              <p>The other domain questions were based on the players contributions to the team. This is a scatter chart for top 20 players with respect to the the following 3 attributes of goals scored, assists, and penalty kicks.
-                  <br>
-                  This can give us a quick way of seeing the distribution of players in the goal contributions, and we can also make out how many players are in the top 20 penalty kick takers that are already there in top goal scorers and assisters.
-              </p>
-              <button value="goals" onclick='changes(this.value)'>Goals</button>
-              <button value="assists" onclick='changes(this.value)'>Assists</button>
-              <button value="pk" onclick='changes(this.value)'>Penalty Goals</button>
-              <!-- >button value="RESET" onclick='changes(this.value)'>RESET</button> -->
-            </div>
-            <svg class ="svg1"></svg>
-          
-          
-      </section>
+      
   <br><br>
       
       <br><br>
